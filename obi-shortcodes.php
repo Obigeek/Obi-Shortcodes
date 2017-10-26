@@ -8,11 +8,13 @@
 
 /* ----- Version ----- */
 $Obiversion = '1.0.0';
+$Obiminified = false;
 
 /* ----- Register Style ----- */
 function ObiShortcodes_register_style() {
-  global $Obiversion;
-  wp_register_style('obishortcodes', plugins_url('style.css', __FILE__), array(), $Obiversion);
+  global $Obiversion, $Obiminified;
+  if ($Obiminified) { $style = 'style_min'; } else { $style = 'style'; }
+  wp_register_style('obishortcodes', plugins_url($style . '.css', __FILE__), array(), $Obiversion);
   wp_enqueue_style('obishortcodes');
 }
 add_action('wp_enqueue_scripts', 'ObiShortcodes_register_style');
