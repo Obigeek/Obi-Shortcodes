@@ -151,8 +151,8 @@
 /* ----- Dark ----- */
 /* -- Warning -- */
 .obibox-warning-dark {
-  background: #fff;
-  border: 1.5px solid #D42C2C;
+  background: #FFCCCB;
+  border: 1.5px solid #ff6865;
   margin: 10px 2.5px; }
   .obibox-warning-dark h4 {
     padding: 5px;
@@ -162,7 +162,7 @@
 
 /* -- Note -- */
 .obibox-note-dark {
-  background: #fff;
+  background: #f4eb95;
   border: 1.5px solid #f4eb95;
   margin: 10px 2.5px; }
   .obibox-note-dark h4 {
@@ -173,11 +173,45 @@
 
 /* -- Info -- */
 .obibox-info-dark {
-  background: #fff;
+  background: #d1eefd;
   border: 1.5px solid #6fcaf9;
   margin: 10px 2.5px; }
   .obibox-info-dark h4 {
     padding: 5px;
     color: #000; }
   .obibox-info-dark span {
+    padding: 5px; }
+
+/* ----- Boxed ----- */
+/* -- Warning -- */
+.obibox-warning-boxed {
+  background: #fff;
+  border: 5px solid #D42C2C;
+  margin: 10px 2.5px; }
+  .obibox-warning-boxed h4 {
+    padding: 5px;
+    color: #000; }
+  .obibox-warning-boxed span {
+    padding: 5px; }
+
+/* -- Note -- */
+.obibox-note-boxed {
+  background: #fff;
+  border: 5px solid #f4eb95;
+  margin: 10px 2.5px; }
+  .obibox-note-boxed h4 {
+    padding: 5px;
+    color: #000; }
+  .obibox-note-boxed span {
+    padding: 5px; }
+
+/* -- Info -- */
+.obibox-info-boxed {
+  background: #fff;
+  border: 5px solid #6fcaf9;
+  margin: 10px 2.5px; }
+  .obibox-info-boxed h4 {
+    padding: 5px;
+    color: #000; }
+  .obibox-info-boxed span {
     padding: 5px; }
