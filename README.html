@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+</head>
+<body>
+<h1 id="obi-shortcodes">Obi-Shortcodes</h1>
+
+<hr />
+
+<h2 id="about">About</h2>
+
+<p>Obi Shortcodes is a Wordpress Plugin developed for the Obigeek Website. It features several general shortcodes such as breakline and link; and some more advanced ones such as columns and warning boxes.</p>
+
+<hr />
+
+<h2 id="minifiedcss">Minified CSS</h2>
+
+<p>Obi-Shortcodes generates both Human Readable CSS and Compressed CSS, the plugin can load either of these depending on how you like to work. If the variable <code>$Obiminified</code> is set to true it will load the minified version. This is set to true for release versions and false for Develop Branch versions.
+___</p>
+
+<h2 id="shortcodes">Shortcodes</h2>
+
+<h3 id="generalhtml">General HTML</h3>
+
+<p>These shortcodes replicate HTML functions for easy addition in the visual editor.</p>
+
+<table>
+<colgroup>
+<col/>
+<col style="text-align:center;"/>
+</colgroup>
+
+<thead>
+<tr>
+	<th>Shortcode</th>
+	<th style="text-align:center;">About</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+	<td>[br]</td>
+	<td style="text-align:center;">Inserts a <code>&lt;br/&gt;</code> tag</td>
+</tr>
+<tr>
+	<td>[break]</td>
+	<td style="text-align:center;">Inserts a <code>&lt;br/&gt;</code> tag</td>
+</tr>
+<tr>
+	<td>[hr]</td>
+	<td style="text-align:center;">Inserts the tags <code>&lt;br/&gt;&lt;hr/&gt;&lt;br/&gt;</code> to create a line with breaks either side</td>
+</tr>
+<tr>
+	<td>[line]</td>
+	<td style="text-align:center;">Inserts the tags <code>&lt;br/&gt;&lt;hr/&gt;&lt;br/&gt;</code> to create a line with breaks either side</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="comment">Comment</h3>
+
+<table>
+<colgroup>
+<col/>
+<col/>
+</colgroup>
+
+<thead>
+<tr>
+	<th>Shortcode</th>
+	<th>About</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+	<td>[c]</td>
+	<td>Prevents text from being returned</td>
+</tr>
+<tr>
+	<td><a href="#comment">comment</a></td>
+	<td>Prevents text from being returned</td>
+</tr>
+</tbody>
+</table>
+
+<p>These shortcodes allow you to wrap a chunk of text and stop it from being returned to the visitors, essentially allowing for comments in the Wordpress admin.</p>
+
+<h3 id="columns">Columns</h3>
+
+<p>The columns system built into Obi-Shortcodes allows for columns up to a sixth. Every step has all steps, so for example, the sixth steps does have shortcodes for 1/6, 2/6, 3/6, 4/6, 5/6 however the CSS only references core parts to reduce the size of the style. Below is an example of each step for reference:</p>
+
+<table>
+<colgroup>
+<col/>
+<col/>
+</colgroup>
+
+<thead>
+<tr>
+	<th>Shortcode</th>
+	<th>About</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+	<td>[one_half]</td>
+	<td>Half of the original area</td>
+</tr>
+<tr>
+	<td>[one_third]</td>
+	<td>A third of the original area</td>
+</tr>
+<tr>
+	<td>[one_fourth]</td>
+	<td>A fourth of the original area</td>
+</tr>
+<tr>
+	<td>[one_fifth]</td>
+	<td>A fifth of the original area</td>
+</tr>
+<tr>
+	<td>[one_sixth]</td>
+	<td>A sixth of the original area</td>
+</tr>
+</tbody>
+</table>
+
+<p>Other Shortcodes:</p>
+
+<table>
+<colgroup>
+<col/>
+<col/>
+</colgroup>
+
+<thead>
+<tr>
+	<th>Shortcode</th>
+	<th>About</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+	<td>[clear_column]</td>
+	<td>Inserts a clear all full width column</td>
+</tr>
+</tbody>
+</table>
+
+<p>All of these can have the suffix <code>_last</code> added to change the float behaviour from left to right. The last suffix will also trigger the clear coloumn shortcode.</p>
+
+<h3 id="boxes">Boxes</h3>
+
+<p>Obi-Shortcodes also includes three boxes, <code>warning</code>, <code>note</code>, and <code>info</code>. These are simple boxes designed to highlight certain information to the reader. The system includes three themes, <code>dark</code>, <code>light</code>, <code>boxed</code>. These themes can be added as a suffix to the box type shortcode or through the <code>theme</code> attribute.</p>
+
+<table>
+<colgroup>
+<col/>
+<col/>
+</colgroup>
+
+<thead>
+<tr>
+	<th>Shortcode</th>
+	<th>About</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+	<td>[warning]</td>
+	<td>A red warning box</td>
+</tr>
+<tr>
+	<td>[note]</td>
+	<td>A legal yellow pad note box</td>
+</tr>
+<tr>
+	<td>[info]</td>
+	<td>A light blue info box</td>
+</tr>
+</tbody>
+</table>
+
+<hr />
+
+<h2 id="changelog">Changelog</h2>
+
+<table>
+<colgroup>
+<col/>
+<col/>
+</colgroup>
+
+<thead>
+<tr>
+	<th>Version</th>
+	<th>Info</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+	<td>V1.0.0</td>
+	<td>Initial Release</td>
+</tr>
+</tbody>
+</table>
+
+</body>
+</html>

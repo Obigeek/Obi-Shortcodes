@@ -1,0 +1,219 @@
+/*
+ * Obishortcodes Plugin
+ * Version: 1.0.0
+ */
+/* ---------- Columns ---------- */
+/* ----- General CSS ----- */
+.full_width,
+.one_half,
+.one_third, .two_third,
+.one_fourth, .three_fourth,
+.one_fith, .two_fith, .three_fith,
+.one_sixth, .five_sixth,
+.full_width_margin,
+.one_half_margin,
+.one_third_margin, .two_third_margin,
+.one_fourth_margin, .three_fourth_margin,
+.one_fith_margin, .two_fith_margin, .three_fith_margin,
+.one_sixth_margin, .five_sixth_margin {
+  float: left;
+  padding: 10px; }
+
+.clear_column {
+  clear: both;
+  display: block;
+  font-size: 0;
+  height: 0;
+  line-height: 0;
+  width: 100%;
+  overflow: hidden; }
+
+.last_column {
+  float: right !important; }
+
+/* ----- Specific CSS ----- */
+.full_width {
+  width: 100%; }
+
+.one_half {
+  width: 50%; }
+
+.one_third {
+  width: 33.3%; }
+
+.two_third {
+  width: 66.6%; }
+
+.one_fourth {
+  width: 25%; }
+
+.three_fourth {
+  width: 75%; }
+
+.one_fith {
+  width: 20%; }
+
+.two_fith {
+  width: 40%; }
+
+.three_fith {
+  width: 60%; }
+
+.one_sixth {
+  width: 16.6%; }
+
+.five_sixth {
+  width: 83.3%; }
+
+/* ----- With Margins Variation ----- */
+.full_width_margin {
+  width: 98% !important;
+  margin: 1% !important; }
+
+.one_half_margin {
+  width: 48% !important;
+  margin: 1% !important; }
+
+.one_third_margin {
+  width: 31.3% !important;
+  margin: 1% !important; }
+
+.two_third_margin {
+  width: 64.6% !important;
+  margin: 1% !important; }
+
+.one_fourth_margin {
+  width: 23% !important;
+  margin: 1% !important; }
+
+.three_fourth_margin {
+  width: 73% !important;
+  margin: 1% !important; }
+
+.one_fith_margin {
+  width: 18% !important;
+  margin: 1% !important; }
+
+.two_fith_margin {
+  width: 38% !important;
+  margin: 1% !important; }
+
+.three_fith_margin {
+  width: 58% !important;
+  margin: 1% !important; }
+
+.one_sixth_margin {
+  width: 14.6% !important;
+  margin: 1% !important; }
+
+.five_sixth_margin {
+  width: 81.3% !important;
+  margin: 1% !important; }
+
+/* ---------- Boxes ---------- */
+/* ----- Light ----- */
+/* -- Warning -- */
+.obibox-warning-light {
+  background: #fff;
+  border: 5px solid #D42C2C;
+  margin: 10px 2.5px; }
+  .obibox-warning-light h4 {
+    background: #D42C2C;
+    padding: 5px;
+    color: #fff; }
+  .obibox-warning-light span {
+    padding: 5px; }
+
+/* -- Note -- */
+.obibox-note-light {
+  background: #fff;
+  border: 5px solid #f4eb95;
+  margin: 10px 2.5px; }
+  .obibox-note-light h4 {
+    background: #f4eb95;
+    padding: 5px;
+    color: #000; }
+  .obibox-note-light span {
+    padding: 5px; }
+
+/* -- Info -- */
+.obibox-info-light {
+  background: #fff;
+  border: 5px solid #6fcaf9;
+  margin: 10px 2.5px; }
+  .obibox-info-light h4 {
+    background: #6fcaf9;
+    padding: 5px;
+    color: #000; }
+  .obibox-info-light span {
+    padding: 5px; }
+
+/* ----- Dark ----- */
+/* -- Warning -- */
+.obibox-warning-dark {
+  background: #FFCCCB;
+  border: 1.5px solid #ff6865;
+  margin: 10px 2.5px; }
+  .obibox-warning-dark h4 {
+    padding: 5px;
+    color: #000; }
+  .obibox-warning-dark span {
+    padding: 5px; }
+
+/* -- Note -- */
+.obibox-note-dark {
+  background: #f4eb95;
+  border: 1.5px solid #f4eb95;
+  margin: 10px 2.5px; }
+  .obibox-note-dark h4 {
+    padding: 5px;
+    color: #000; }
+  .obibox-note-dark span {
+    padding: 5px; }
+
+/* -- Info -- */
+.obibox-info-dark {
+  background: #d1eefd;
+  border: 1.5px solid #6fcaf9;
+  margin: 10px 2.5px; }
+  .obibox-info-dark h4 {
+    padding: 5px;
+    color: #000; }
+  .obibox-info-dark span {
+    padding: 5px; }
+
+/* ----- Boxed ----- */
+/* -- Warning -- */
+.obibox-warning-boxed {
+  background: #fff;
+  border: 5px solid #D42C2C;
+  margin: 10px 2.5px; }
+  .obibox-warning-boxed h4 {
+    padding: 5px;
+    color: #000; }
+  .obibox-warning-boxed span {
+    padding: 5px; }
+
+/* -- Note -- */
+.obibox-note-boxed {
+  background: #fff;
+  border: 5px solid #f4eb95;
+  margin: 10px 2.5px; }
+  .obibox-note-boxed h4 {
+    padding: 5px;
+    color: #000; }
+  .obibox-note-boxed span {
+    padding: 5px; }
+
+/* -- Info -- */
+.obibox-info-boxed {
+  background: #fff;
+  border: 5px solid #6fcaf9;
+  margin: 10px 2.5px; }
+  .obibox-info-boxed h4 {
+    padding: 5px;
+    color: #000; }
+  .obibox-info-boxed span {
+    padding: 5px; }
+
+/*# sourceMappingURL=style.css.map */

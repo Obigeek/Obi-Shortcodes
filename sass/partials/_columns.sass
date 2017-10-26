@@ -1,0 +1,107 @@
+/* ---------- Columns ---------- */
+/* ----- General CSS ----- */
+.full_width,
+.one_half,
+.one_third, .two_third,
+.one_fourth, .three_fourth,
+.one_fith, .two_fith, .three_fith,
+.one_sixth, .five_sixth,
+.full_width_margin,
+.one_half_margin,
+.one_third_margin, .two_third_margin,
+.one_fourth_margin, .three_fourth_margin,
+.one_fith_margin, .two_fith_margin, .three_fith_margin,
+.one_sixth_margin, .five_sixth_margin
+  float: left
+  @include column_padding()
+
+.clear_column
+  clear: both
+  display: block
+  font-size: 0
+  height: 0
+  line-height: 0
+  width: 100%
+  overflow: hidden
+
+.last_column
+  float: right !important
+
+/* ----- Specific CSS ----- */
+.full_width
+  width: 100%
+
+.one_half
+  width: column_calc(2, 1)
+
+.one_third
+  width: column_calc(3,1)
+
+.two_third
+  width: column_calc(3,2)
+
+.one_fourth
+  width: column_calc(4,1)
+
+.three_fourth
+  width: column_calc(4,3)
+
+.one_fith
+  width: column_calc(5,1)
+
+.two_fith
+  width: column_calc(5,2)
+
+.three_fith
+  width: column_calc(5,3)
+
+.one_sixth
+  width: column_calc(6,1)
+
+.five_sixth
+  width: column_calc(6,5)
+
+/* ----- With Margins Variation ----- */
+.full_width_margin
+  width: 98% !important
+  @include column_margin()
+
+.one_half_margin
+  width: column_calc(2, 1, 'true')
+  @include column_margin()
+
+.one_third_margin
+  width: column_calc(3,1, 'true')
+  @include column_margin()
+
+.two_third_margin
+  width: column_calc(3,2, 'true')
+  @include column_margin()
+
+.one_fourth_margin
+  width: column_calc(4,1, 'true')
+  @include column_margin()
+
+.three_fourth_margin
+  width: column_calc(4,3, 'true')
+  @include column_margin()
+
+.one_fith_margin
+  width: column_calc(5,1, 'true')
+  @include column_margin()
+
+.two_fith_margin
+  width: column_calc(5,2, 'true')
+  @include column_margin()
+
+.three_fith_margin
+  width: column_calc(5,3, 'true')
+  @include column_margin()
+
+.one_sixth_margin
+  width: column_calc(6,1, 'true')
+  @include column_margin()
+
+.five_sixth_margin
+  width: column_calc(6,5, 'true')
+  @include column_margin()

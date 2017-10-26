@@ -1,0 +1,9 @@
+@mixin column_margin() {
+  margin: 1% !important;
+}
+
+@mixin column_padding() {
+  @if $column_padding_en == true {
+    padding: $column_padding;
+  }
+}

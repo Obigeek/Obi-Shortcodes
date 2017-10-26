@@ -1,0 +1,39 @@
+@mixin obibox_light($bkg, $border, $col: $black) {
+  background: $bkg;
+  border: $boxes_border_light $border;
+  margin: $boxes_margin;
+  h4{
+    background: $border;
+    padding: $boxes_padding;
+    color: $col;
+  }
+  span{
+    padding: $boxes_padding;
+  }
+}
+
+@mixin obibox_dark($bkg, $border, $col: $black) {
+  background: $bkg;
+  border: $boxes_border_dark $border;
+  margin: $boxes_margin;
+  h4{
+    padding: $boxes_padding;
+    color: $col;
+  }
+  span{
+    padding: $boxes_padding;
+  }
+}
+
+@mixin obibox_boxed($bkg, $border, $col: $black) {
+  background: $bkg;
+  border: $boxes_border_boxed $border;
+  margin: $boxes_margin;
+  h4{
+    padding: $boxes_padding;
+    color: $col;
+  }
+  span{
+    padding: $boxes_padding;
+  }
+}
