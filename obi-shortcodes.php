@@ -17,6 +17,9 @@ function ObiShortcodes_register_style() {
 }
 add_action('wp_enqueue_scripts', 'ObiShortcodes_register_style');
 
+/* ----- AttBlack Function ----- */
+include('inc/attBlank.php');
+
 /* ----- Obiboxes ----- */
 include('inc/boxes.php');
 
@@ -33,4 +36,4 @@ include('inc/basic-html/link.php');
 include('inc/basic-html/break.php');
 
 /* ----- Comment ----- */
-include('inc/comment.php'); 
+include('inc/comment.php');
