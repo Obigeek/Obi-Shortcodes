@@ -80,10 +80,10 @@ function obishortcodes_column_identCheck($ident) {
     'two_third',
     'one_fourth',
     'three_fourth',
-    'one_fith',
-    'two_fith',
-    'three_fith',
-    'four_fith',
+    'one_fifth',
+    'two_fifth',
+    'three_fifth',
+    'four_fifth',
     'one_sixth',
     'five_sixth'
   );
@@ -329,15 +329,15 @@ function obishortcodes_columns_threeFourthLast($atts, $content = nul) {
   return obishortcodes_columns_worker($ident, $content, $last, $class, $id, $padding, $margin);
 }
 
-/* ----- Fith ----- */
-// One Fith
-function obishortcodes_columns_oneFith($atts, $content = nul) {
+/* ----- Fifth ----- */
+// One Fifth
+function obishortcodes_columns_oneFifth($atts, $content = nul) {
   // Extract stuff
   global $obis_col_attsArray;
   extract(shortcode_atts($obis_col_attsArray, $atts));
 
   // Set the ident
-  $ident = 'one_fith';
+  $ident = 'one_fifth';
 
   // No content?
   if (!isset($content)) { return; }
@@ -346,14 +346,14 @@ function obishortcodes_columns_oneFith($atts, $content = nul) {
   return obishortcodes_columns_worker($ident, $content, $last, $class, $id, $padding, $margin);
 }
 
-// Two Fith
-function obishortcodes_columns_twoFith($atts, $content = nul) {
+// Two Fifth
+function obishortcodes_columns_twoFifth($atts, $content = nul) {
   // Extract stuff
   global $obis_col_attsArray;
   extract(shortcode_atts($obis_col_attsArray, $atts));
 
   // Set the ident
-  $ident = 'two_fith';
+  $ident = 'two_fifth';
 
   // No content?
   if (!isset($content)) { return; }
@@ -362,14 +362,14 @@ function obishortcodes_columns_twoFith($atts, $content = nul) {
   return obishortcodes_columns_worker($ident, $content, $last, $class, $id, $padding, $margin);
 }
 
-// Three Fith
-function obishortcodes_columns_threeFith($atts, $content = nul) {
+// Three Fifth
+function obishortcodes_columns_threeFifth($atts, $content = nul) {
   // Extract stuff
   global $obis_col_attsArray;
   extract(shortcode_atts($obis_col_attsArray, $atts));
 
   // Set the ident
-  $ident = 'three_fith';
+  $ident = 'three_fifth';
 
   // No content?
   if (!isset($content)) { return; }
@@ -378,14 +378,14 @@ function obishortcodes_columns_threeFith($atts, $content = nul) {
   return obishortcodes_columns_worker($ident, $content, $last, $class, $id, $padding, $margin);
 }
 
-// Four Fith
-function obishortcodes_columns_fourFith($atts, $content = nul) {
+// Four Fifth
+function obishortcodes_columns_fourFifth($atts, $content = nul) {
   // Extract stuff
   global $obis_col_attsArray;
   extract(shortcode_atts($obis_col_attsArray, $atts));
 
   // Set the ident
-  $ident = 'four_fith';
+  $ident = 'four_fifth';
 
   // No content?
   if (!isset($content)) { return; }
@@ -394,33 +394,14 @@ function obishortcodes_columns_fourFith($atts, $content = nul) {
   return obishortcodes_columns_worker($ident, $content, $last, $class, $id, $padding, $margin);
 }
 
-// One Fith Last
-function obishortcodes_columns_oneFithLast($atts, $content = nul) {
+// One Fifth Last
+function obishortcodes_columns_oneFifthLast($atts, $content = nul) {
   // Extract stuff
   global $obis_col_attsArray;
   extract(shortcode_atts($obis_col_attsArray, $atts));
 
   // Set the ident
-  $ident = 'one_fith';
-
-  // No content?
-  if (!isset($content)) { return; }
-
-  // Force Last
-  $last = true;
-
-  // Output stuff
-  return obishortcodes_columns_worker($ident, $content, $last, $class, $id, $padding, $margin);
-}
-
-// Two Fith Last
-function obishortcodes_columns_twoFithLast($atts, $content = nul) {
-  // Extract stuff
-  global $obis_col_attsArray;
-  extract(shortcode_atts($obis_col_attsArray, $atts));
-
-  // Set the ident
-  $ident = 'two_fith';
+  $ident = 'one_fifth';
 
   // No content?
   if (!isset($content)) { return; }
@@ -432,14 +413,33 @@ function obishortcodes_columns_twoFithLast($atts, $content = nul) {
   return obishortcodes_columns_worker($ident, $content, $last, $class, $id, $padding, $margin);
 }
 
-// Three Fith Last
-function obishortcodes_columns_threeFithLast($atts, $content = nul) {
+// Two Fifth Last
+function obishortcodes_columns_twoFifthLast($atts, $content = nul) {
   // Extract stuff
   global $obis_col_attsArray;
   extract(shortcode_atts($obis_col_attsArray, $atts));
 
   // Set the ident
-  $ident = 'three_fith';
+  $ident = 'two_fifth';
+
+  // No content?
+  if (!isset($content)) { return; }
+
+  // Force Last
+  $last = true;
+
+  // Output stuff
+  return obishortcodes_columns_worker($ident, $content, $last, $class, $id, $padding, $margin);
+}
+
+// Three Fifth Last
+function obishortcodes_columns_threeFifthLast($atts, $content = nul) {
+  // Extract stuff
+  global $obis_col_attsArray;
+  extract(shortcode_atts($obis_col_attsArray, $atts));
+
+  // Set the ident
+  $ident = 'three_fifth';
 
   // No content?
   if (!isset($content)) { return; }
@@ -448,14 +448,14 @@ function obishortcodes_columns_threeFithLast($atts, $content = nul) {
   return obishortcodes_columns_worker($ident, $content, $last, $class, $id, $padding, $margin);
 }
 
-// Four Fith Last
-function obishortcodes_columns_fourFithLast($atts, $content = nul) {
+// Four Fifth Last
+function obishortcodes_columns_fourFifthLast($atts, $content = nul) {
   // Extract stuff
   global $obis_col_attsArray;
   extract(shortcode_atts($obis_col_attsArray, $atts));
 
   // Set the ident
-  $ident = 'four_fith';
+  $ident = 'four_fifth';
 
   // No content?
   if (!isset($content)) { return; }
@@ -659,14 +659,14 @@ function obishortcode_register_columns() {
   add_shortcode('one_fourth_last', 'obishortcodes_columns_oneFourthLast');
   add_shortcode('two_fourth_last', 'obishortcodes_columns_twoFourthLast');
   add_shortcode('three_fourth_last', 'obishortcodes_columns_threeFourthLast');
-  add_shortcode('one_fith', 'obishortcodes_columns_oneFith');
-  add_shortcode('two_fith', 'obishortcodes_columns_twoFith');
-  add_shortcode('three_fith', 'obishortcodes_columns_threeFith');
-  add_shortcode('four_fith', 'obishortcodes_columns_fourFith');
-  add_shortcode('one_fith_last', 'obishortcodes_columns_oneFithLast');
-  add_shortcode('two_fith_last', 'obishortcodes_columns_twoFithLast');
-  add_shortcode('three_fith_last', 'obishortcodes_columns_threeFithLast');
-  add_shortcode('four_fith_last', 'obishortcodes_columns_fourFithLast');
+  add_shortcode('one_fifth', 'obishortcodes_columns_oneFifth');
+  add_shortcode('two_fifth', 'obishortcodes_columns_twoFifth');
+  add_shortcode('three_fifth', 'obishortcodes_columns_threeFifth');
+  add_shortcode('four_fifth', 'obishortcodes_columns_fourFifth');
+  add_shortcode('one_fifth_last', 'obishortcodes_columns_oneFifthLast');
+  add_shortcode('two_fifth_last', 'obishortcodes_columns_twoFifthLast');
+  add_shortcode('three_fifth_last', 'obishortcodes_columns_threeFifthLast');
+  add_shortcode('four_fifth_last', 'obishortcodes_columns_fourFifthLast');
   add_shortcode('one_sixth', 'obishortcodes_columns_oneSixth');
   add_shortcode('two_sixth', 'obishortcodes_columns_twoSixth');
   add_shortcode('three_sixth', 'obishortcodes_columns_threeSixth');
