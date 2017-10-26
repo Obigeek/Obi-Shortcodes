@@ -12,7 +12,7 @@ $Obiversion = '1.0.0';
 /* ----- Register Style ----- */
 function ObiShortcodes_register_style() {
   global $Obiversion;
-  wp_register_style('obishortcodes', plugins_url('styles/style.css', __FILE__), array(), $Obiversion);
+  wp_register_style('obishortcodes', plugins_url('style.css', __FILE__), array(), $Obiversion);
   wp_enqueue_style('obishortcodes');
 }
 add_action('wp_enqueue_scripts', 'ObiShortcodes_register_style');
@@ -33,4 +33,4 @@ include('inc/basic-html/link.php');
 include('inc/basic-html/break.php');
 
 /* ----- Hidden ----- */
-include('inc/hidden.php');
+//include('inc/hidden.php'); // Future Feature

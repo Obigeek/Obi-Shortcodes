@@ -1,0 +1,11 @@
+// This Function requires the decimal round function
+@function column_calc($numcol, $colnum: 1, $margin: 'false') {
+  $math: 100/$numcol;
+  $math2: $math*$colnum;
+  $output: decimal_round($math2, 1, 'floor');
+  @if $margin == 'true' {
+    @return $output - 2 + % !important;
+  } @else {
+    @return $output+%;
+  }
+}
