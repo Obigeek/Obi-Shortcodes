@@ -33,4 +33,4 @@ include('inc/basic-html/link.php');
 include('inc/basic-html/break.php');
 
 /* ----- Hidden ----- */
-//include('inc/hidden.php'); // Future Feature
+include('inc/comment.php'); // Future Feature
