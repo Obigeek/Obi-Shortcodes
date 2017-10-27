@@ -1,16 +1,12 @@
 # Obi-Shortcodes
-___
 
 ## About
 
 Obi Shortcodes is a Wordpress Plugin developed for the Obigeek Website. It features several general shortcodes such as breakline and link; and some more advanced ones such as columns and warning boxes.
 
-___
-
 ## Minified CSS
 
 Obi-Shortcodes generates both Human Readable CSS and Compressed CSS, the plugin can load either of these depending on how you like to work. If the variable `$Obiminified` is set to true it will load the minified version. This is set to true for release versions and false for Develop Branch versions.
-___
 
 ## Shortcodes
 
@@ -65,7 +61,6 @@ Obi-Shortcodes also includes three boxes, `warning`, `note`, and `info`. These a
 | [note] | A legal yellow pad note box |
 | [info] | A light blue info box |
 
----
 
 ## Changelog
 
